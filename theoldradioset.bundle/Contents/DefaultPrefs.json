@@ -3,12 +3,12 @@
                 "id":                   "mp3_url",
                 "label":                "URL for MP3 stream",
                 "type":         "text",
-                "default":      "http://icecast.timlradio.co.uk:80/ac128.mp3",
+                "default":      "http://49.176.197.200:88/broadwave.mp3",
         },
         {
                 "id":                   "stream_title",
-                "label":                "Radio station name",
+                "label":                "Basemental, all day every day",
                 "type":         "text",
-                "default":      "Absolute Classic Rock",
+                "default":      "We only play it if it's good",
         },
 ]
