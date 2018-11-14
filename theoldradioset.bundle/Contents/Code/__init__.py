@@ -4,7 +4,7 @@
 ART      = 'art-default.jpg'
 ICON     = 'icon-default.png'
 
-PREFIX = '/music/theoldradioset'
+PREFIX = '/music/basementalradio'
 
 ####################################################################################################
 
@@ -15,7 +15,7 @@ def Start():
     Plugin.AddViewGroup('the_view_group', viewMode = 'List', mediaType = 'items')
 
     # Setup the artwork associated with the plugin
-    ObjectContainer.title1 = 'The Old Radio Set'
+    ObjectContainer.title1 = 'Basemental Radio'
     ObjectContainer.art = R(ART)
     ObjectContainer.view_group = 'the_view_group'
 
@@ -26,7 +26,7 @@ def Start():
 
 ####################################################################################################
 
-@handler(PREFIX, 'The Old Radio Set')
+@handler(PREFIX, 'Basemental Radio')
 def MainMenu():
 
     # Would love to call this periodically to update the channel background art, but not possible
